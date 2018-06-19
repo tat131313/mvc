@@ -1,7 +1,6 @@
 <?php
     //FRONT CONTROLLER
 
-
     //1. General properties
         ini_set('display_errors',1);
         error_reporting(E_ALL);
@@ -15,8 +14,5 @@
     //4. Call Router
         $router = new Router();
         $router->run();
-
-
-
 
 ?>
